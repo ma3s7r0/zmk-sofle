@@ -3,6 +3,25 @@
 # SPDX-License-Identifier: MIT
 #
 
+if SHIELD_EYELASH_SOFLE_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "TOTEM"
+    
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_USB
+    default y
+
+config ZMK_BLE
+    default y
+
+config ZMK_SPLIT
+    default y
+
+endif
+
 if BOARD_EYELASH_SOFLE_LEFT
 
 config ZMK_KEYBOARD_NAME
