@@ -4,6 +4,7 @@ name: Eyelash Sofle
 url: https://github.com/a741725193/zmk-sofle
 type: board
 arch: arm
+requires: [seeeduino_xiao_ble]
 features:
   - keys
   - display

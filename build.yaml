@@ -11,5 +11,5 @@ include:
     artifact-name: eyelash_sofle_studio_left
   - board: eyelash_sofle_left
     shield: settings_reset
-  - board: seeeduino_xiao_ble
-    shield: eyelash_sofle_dongle  
+  - board: eyelash_sofle_dongle
+    shield: seeeduino_xiao_ble
