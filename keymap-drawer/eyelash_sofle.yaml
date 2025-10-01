@@ -222,7 +222,7 @@ layers:
   - F12
   - _
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:bluetooth-off$$
   - OUT USB
   - OUT BLE
   - {t: '$$mdi:transfer$$', type: trans}
